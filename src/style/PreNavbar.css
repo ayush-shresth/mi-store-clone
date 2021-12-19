@@ -1,0 +1,42 @@
+
+.preNav {
+    background-color: rgba(29, 29, 29, 0.993);
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    color: white;
+   
+}
+
+.preNav > div{
+    padding: 0.85vmax 4.5vmax;
+    display: flex;
+    align-items: center;
+}
+
+.preNav>div>span{
+    color: rgba(180, 180, 180, 0.644);
+    font-size: 0.9vmax;
+    font-weight: 100;
+    padding: 0vmax 1.5vmax;
+    text-decoration: none;
+    
+}
+.cart_icon{
+    font-size: 1.4vmax;
+    padding-right: 5px;
+}
+
+.preNav>div>a{
+    color: rgb(180, 180, 180);
+    font-size: 0.9vmax;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+/* font-family: 'Source Sans 3', sans-serif; */
+
+}
+.preNav>div>a:hover{
+    color: white;
+}

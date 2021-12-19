@@ -1,0 +1,15 @@
+.starProduct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 2vmax; */
+    padding-left: 5vmax;
+}
+
+.starProduct img:hover {
+    -webkit-box-shadow: -4px -2px 14px 1px rgba(0, 0, 0, 0.53);
+    box-shadow: -4px -2px 14px 1px rgba(0, 0, 0, 0.53);
+
+    transition: all .7s;
+    transform: translateY(10px);
+}

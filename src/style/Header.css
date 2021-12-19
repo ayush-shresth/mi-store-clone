@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header div{
+    height: 2px;
+    background-color: #ccc;
+    width: 60vh;
+    margin: 3vmax;
+}
+.header p{
+    font-size: 2.2vmax;
+    text-transform: uppercase;
+    color: #555;
+    font-weight: 350;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 3vmax;
+}
