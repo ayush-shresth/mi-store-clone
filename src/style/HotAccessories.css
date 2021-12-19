@@ -1,0 +1,35 @@
+/* .hotAccessories img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.hotAccessoriesItem img{
+    height: 10vmax;
+    width: 10vmax;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+} */
+.hotAccessories{
+    /* margin: 2vmax 5.7vmax; */
+    display: flex;
+    margin: auto;
+    width: 90vw;
+}
+.hotAccessoriesItem{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hotAccessoriesCover img{
+    cursor: pointer;
+    transition: all 0.6s;
+    width: 22vw;
+    margin: 10px;
+}
+.hotAccessoriesCover img:hover{
+    transition: all 0.7s;
+    transform: translateY(10px);
+    cursor: pointer;
+    -webkit-box-shadow: -4px -2px 14px 1px rgba(0, 0, 0, 0.699);
+    box-shadow: -4px -2px 14px 1px rgba(0, 0, 0, 0.637);
+}
