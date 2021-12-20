@@ -1,0 +1,40 @@
+.hotItemCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 31%;
+    border: #ccc 1px solid;
+    margin: 10px;
+    padding: 10px;
+}
+.hotItemCard:hover{
+    /* transition: all 0.5s;
+    transform: translatey(-10px); */
+    -webkit-box-shadow: -4px -2px 14px 1px rgba(0, 0, 0, 0.53);
+    box-shadow: -4px -2px 14px 1px rgba(0, 0, 0, 0.53);
+
+    transition: all .7s;
+    transform: translateY(10px);
+    cursor: pointer;
+}
+
+.hotItemCard img{
+   width: 70%;
+   display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+.hotItemCard p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 5px;
+}
+.hotItemCard span{
+    color: orangered;
+    font-weight: 500;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
