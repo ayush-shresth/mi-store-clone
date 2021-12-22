@@ -25,7 +25,27 @@
     font-size: 1.4vmax;
     padding-right: 5px;
 }
-
+.preNav>div>i{
+    color: rgb(180, 180, 180);
+    font-size: 0.9vmax;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 2vmax;
+}
+.preNav>div>i:hover{
+    transition: all .4s;
+    cursor: pointer;
+    transform: translateY(-3px);
+    color: white;
+    border-bottom: 1px solid rgba(134, 134, 134, 0.37);
+}
+.sym{
+    font-size: 17px;
+    padding-right: 5px;
+}
 .preNav>div>a{
     color: rgb(180, 180, 180);
     font-size: 0.9vmax;

@@ -1,0 +1,74 @@
+.footerMain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+    padding: 4.5vmax;
+    background-color: rgb(30, 30, 30);
+    color: rgb(131, 131, 131);
+    ;
+}
+
+.footerMain>div {
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.footerMain>div>a {
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+    font-size: 14px;
+    padding-bottom: 8px;
+   
+}
+
+.footerMain>div>a:hover {
+    color: white;
+    transition: all 0.5s;
+    transform: translateY(-5px);
+
+}
+
+.footerMain>div>p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footerMain>div:last-child {
+    width: 45%;
+    font-size: 13px;
+    margin: 1vmax;
+}
+
+.footerMain>div:last-child>div>div {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.footerMain>div:last-child>button{
+    background-color: rgb(30, 30, 30);
+    color: rgb(177, 177, 177);
+    border: rgb(243, 168, 168) 1px solid;
+}
+.footerMain>div:last-child>button:hover{
+    color: white;
+    border: white 1.4px solid;
+    
+    border-radius: 20px;
+    transition: ease-out 0.6s;
+    transform: translateY(-7px)
+}
+.footerBorder{
+    background-color: rgb(30, 30, 30);
+    color: rgb(131, 131, 131);
+    padding: 1vmax;
+
+    
+}
+.footerBorder>div{
+    border-top:1px solid rgb(131, 131, 131);
+    width: 90%;
+    margin: auto;
+    padding: 1vmax 3vmax;
+    font-size: 13px;
+    font-weight: 500;
+}

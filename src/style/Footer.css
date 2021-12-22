@@ -1,0 +1,88 @@
+.footer{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    margin: 4vmax 5vmax 0vmax 5vmax;
+    padding: 20px 0 5px 0;
+    cursor: pointer;
+}
+.footerItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerItem>i{
+    font-size: 50px;
+    margin: 5px;
+    padding-right: 15px;
+    /* padding-bottom: 15px; */
+    position: relative;
+    top:-7px;
+    font-weight: 100;
+    color: rgba(110, 110, 110, 0.541);
+}
+.footerItem>p>b{
+    color: rgb(58, 58, 58);
+    font-weight: 500;
+    /* font-size: 12px; */
+}
+.footerItem>i:hover{
+    color: rgb(131, 131, 131);
+    transition: all .5s;
+    
+}
+.footerItem>p>span:hover{
+    color: rgb(131, 131, 131);
+    transition: all .5s;
+}
+.footerItem>p>span{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(110, 110, 110, 0.541);
+}
+.footer2-part3{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight:400;
+}
+
+/* .footer2-part3  */
+.footer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+
+}
+
+.footer2-part1 p{
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.footer2-part1 span{
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer2-part1{
+    padding-right: 40px;
+}
+.footer2-part2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer2-part2 input, button{
+    border: none;
+    /* border-radius: 10px; */
+    height: 2.5vmax;
+    padding: 0 15px;
+    outline: none;
+    font-size: 1vmax;
+    background-color: #fff;
+}
