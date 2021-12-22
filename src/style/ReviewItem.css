@@ -1,0 +1,37 @@
+.text {
+    margin: 1.3vmax 1.7vmax;
+}
+
+.reviewItem {
+    margin: 7px;
+}
+
+.reviewItem:hover {
+    /* transform: scale3d(1.1) */
+    transform: translateX(-10px) translateY(-10px);
+    transition: all .7s;
+    -webkit-box-shadow: 5px 9px 12px 1px rgba(0, 0, 0, 0.42);
+    box-shadow: 5px 9px 12px 1px rgba(0, 0, 0, 0.42);
+}
+
+.reviewItem h5 {
+    /* margin: 10px; */
+    font-size: 18px;
+    height: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(126, 121, 121);
+    font-weight: 500;
+}
+
+.text>span {
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(109, 103, 103);
+    font-weight: 500;
+}
+
+.text>b {
+    font-size: 13px;
+    color: rgba(255, 68, 0, 0.863);
+    margin-left: 3vmax;
+}

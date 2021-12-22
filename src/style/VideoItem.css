@@ -1,0 +1,31 @@
+.videoItem{
+    margin: 0 8px;;
+    cursor: pointer;
+    overflow: hidden;
+    margin-bottom: -11.1%;
+}
+.play-icon{
+    color: white;
+     z-index: 20;
+    background-color: rgba(255, 255, 255, 0.116);
+    font-size: 50px;
+    padding: 19px;
+    margin-bottom: 25px;
+    border-radius: 50%; 
+}
+.videoText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 46.5%;
+}
+.videoText p{
+    color: rgb(226, 210, 210);
+    font-size: 16px;
+}
+.play-icon:hover{
+    background-color: rgba(255, 255, 255, 0.493);
+    transition: all 0.6s;
+}
